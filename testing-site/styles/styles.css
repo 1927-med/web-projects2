@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+  }
+  p,
+li {
+  color: green;
+}
+li {
+    list-style-type: circle;
+  }
+  a[href="https://github.com/1927-med"] {
+    color: red;
+  }
+  .red {
+    color: #f33;
+  }
+  
+  .yellow-bg {
+    background: #ffa;
+  }
+  
+  .fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+  }
+  /* In the next two rules, the class attributes must be escaped */
+
+.item\?one {
+    background-color: pink;
+  }
+  
+  .\00003123item {
+    background-color: yellow;
+  }
+  
+   
